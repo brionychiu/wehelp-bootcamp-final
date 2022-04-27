@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffe8d6;
+    letter-spacing: 3px;
+}
+.navbar{
+    height:80px;
+    background: #b7b7a4;
+    color:#6b705c;
+    text-align: center;
+}
+.navbar h1{
+    display: inline-block;
+    font-weight: 800;
+}
+.header{
+    height:200px;
+    background-color: #ddbea9;
+    color:#6b705c;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height:200px; 
+    /* line-heigh = height 垂直置中 */
+}
+.button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    padding: 10px;
+    border: 0px none;
+    border-radius: 3px;
+    background: #b7b7a4;
+    color: #ffe8d6;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    border: 3px solid;
+}
