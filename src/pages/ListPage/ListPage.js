@@ -13,7 +13,7 @@ const ListPage = () => {
                 <Edit/>
                 <hr/>
                 <List/>
-                <Link to='/' className='button'> back to home </Link>
+                <Link to='/' className='button'> Logout </Link>
             </ListContextProvider>
         </div>
      );

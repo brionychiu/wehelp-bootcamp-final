@@ -91,16 +91,6 @@ li > h3{
     margin: 10px;
     color:#6b705c
 }
-button{
-    margin-left: 30px;
-    padding: 0px 5px;
-    background: #ffe8d6;
-    color: #6b705c;
-    font-size: 15px;
-    border: 3px dashed #6b705c;
-    border-radius: 3px;
-    cursor: pointer;
-}
 .empty{
     color:#6b705c
 }
